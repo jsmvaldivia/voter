@@ -41,7 +41,7 @@ const puppeteer = require('puppeteer');
         await page.close();
 
         // Random delay (between 2-5 seconds) to avoid detection
-        //await delay(Math.floor(Math.random() * 3000) + 2000);
+        await delay(Math.floor(Math.random() * 3000) + 2000);
     }
 
     // Close the browser after voting
